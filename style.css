@@ -1,0 +1,43 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fff0f0;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  width: 350px;
+}
+
+button {
+  background-color: #ff2d55;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #e6224b;
+}
+
+#payment-message {
+  color: green;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
